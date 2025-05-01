@@ -8,8 +8,8 @@ class Pipeline:
     def __init__(self):
         self.name = "Coze Enhanced Pipeline"
         self.api_url = "https://api.coze.cn/open_api/v2/chat"
-        self.api_key = "Bearer your_api_token"  # 替换为实际Token
-        self.bot_id = "your_bot_id"             # 替换为实际Bot ID
+        self.api_key = "Bearer pat_yF0cYDONOpcd36G9jW0nhYtdJXeNKyMHxaaZc8pf8tsB68DXaBLGg9q3eBocGyne"  # 替换为实际Token
+        self.bot_id = "7498743737774800935"             # 替换为实际Bot ID
         self.api_request_stream = False
         self.verify_ssl = True
         self.debug = True
